@@ -46,7 +46,7 @@ Config.cuda = True
 #Config.embedding_dim = 200
 
 model_name = '{2}_{0}_{1}'.format(Config.input_dropout, Config.dropout, Config.model_name)
-epochs = 1000
+epochs = 300
 load = False
 if Config.dataset is None:
     Config.dataset = 'FB15k-237'

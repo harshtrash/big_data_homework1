@@ -17,7 +17,7 @@ import pickle
 from src.spodernet.spodernet.utils.logger import Logger
 log = Logger('processors.py.txt')
 
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 timer = Timer()
 
 class KeyToKeyMapper(IAtBatchPreparedObservable):
